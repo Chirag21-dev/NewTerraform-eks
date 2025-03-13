@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout git SCM'){
             steps{
                 script{
-                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Chirag21-dev/Terraform-eks.git']])
+                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Chirag21-dev/NewTerraform-eks.git']])
                 }
             }
         }
